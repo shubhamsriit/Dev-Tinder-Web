@@ -1,0 +1,10 @@
+export const LOGIN = "/auth/login";
+export const LOGOUT = "/auth/logout";
+export const GET_FEED = "/user/feed";
+export const GET_LOGEED_USER = "/profile/view";
+export const UPDATE_PROFILE = "/profile/update";
+export const GET_CONNECTIONS = "/user/connections";
+export const GET_REQUESTS = "/user/requests/received";
+export const ACCEPTED_REJECTED_REQUEST = "/request/review";
+export const SEND_REQUEST="/request/send";
+export const SIGNUP="/auth/signup";
