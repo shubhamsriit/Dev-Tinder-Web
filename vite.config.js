@@ -9,7 +9,7 @@ export default defineConfig({
   base: "./",
   build: {
     outDir: "dist",
-    sourcemap: false,
+    sourcemap: true,
     minify: "esbuild",
     rollupOptions: {
       input: path.resolve(__dirname, "index.html"),
